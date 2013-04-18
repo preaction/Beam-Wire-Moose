@@ -1,0 +1,34 @@
+NAME
+    Beam::Wire::Moose - Dependency Injection with extra Moose features
+
+SYNOPSIS
+        # container.yml
+        db:
+            class: My::Database
+            with:
+                - My::Role::Cache
+                - My::Role::Log
+            args:
+                dbh: { ref: dbh }
+        dbh:
+            class: DBI
+            args:
+                - 'dbi:sqlite:data.db'
+
+DESCRIPTION
+    Beam::Wire::Moose is a subclass of Beam::Wire that adds support for
+    Moose-specific features.
+
+SERVICE CONFIG
+  with
+    Compose roles into this object at run-time. This creates an anonymous
+    class that extends the "class" config and consumes the roles defined by
+    "with".
+
+    NOTE: This means the service is not an instance of "class" but an
+    instance of a class that inherits from "class". Be cautious when using
+    "ref" and "Scalar::Util::blessed".
+
+SEE ALSO
+    Beam::Wire
+
