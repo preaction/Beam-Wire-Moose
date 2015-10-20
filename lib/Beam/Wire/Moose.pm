@@ -1,4 +1,5 @@
 package Beam::Wire::Moose;
+# ABSTRACT: Dependency Injection with extra Moose features
 
 use Moose;
 use Moose::Meta::Class;
@@ -21,10 +22,6 @@ around create_service => sub {
 
 1;
 __END__
-
-=head1 NAME
-
-Beam::Wire::Moose - Dependency Injection with extra Moose features
 
 =head1 SYNOPSIS
 
