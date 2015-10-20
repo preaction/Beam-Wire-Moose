@@ -1,6 +1,14 @@
 # NAME
 
-Beam::Wire::Moose - Dependency Injection with extra Moose features
+Beam::Wire::Moose
+
+# VERSION
+
+version 0.004
+
+# STATUS
+
+<a href="https://travis-ci.org/preaction/Beam-Wire-Moose"><img src="https://travis-ci.org/preaction/Beam-Wire-Moose.svg?branch=master"></a><a href="https://coveralls.io/r/preaction/Beam-Wire-Moose"><img src="https://coveralls.io/repos/preaction/Beam-Wire-Moose/badge.png" alt="Coverage Status" /></a>
 
 # SYNOPSIS
 
@@ -22,6 +30,10 @@ Beam::Wire::Moose - Dependency Injection with extra Moose features
 Beam::Wire::Moose is a subclass of Beam::Wire that adds support for Moose-specific
 features.
 
+# NAME
+
+Beam::Wire::Moose - Dependency Injection with extra Moose features
+
 # SERVICE CONFIG
 
 ## with
@@ -33,8 +45,17 @@ NOTE: This means the service is not an instance of `class` but an instance of
 a class that inherits from `class`. Be cautious when using `ref` and
 `Scalar::Util::blessed`.
 
-
-
 # SEE ALSO
 
-- [Beam::Wire](http://search.cpan.org/perldoc?Beam::Wire)
+- [Beam::Wire](https://metacpan.org/pod/Beam::Wire)
+
+# AUTHOR
+
+Doug Bell <preaction@cpan.org>
+
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2015 by Doug Bell.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
