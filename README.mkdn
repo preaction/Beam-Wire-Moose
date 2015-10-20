@@ -1,10 +1,10 @@
 # NAME
 
-Beam::Wire::Moose
+Beam::Wire::Moose - Dependency Injection with extra Moose features
 
 # VERSION
 
-version 0.004
+version 0.005
 
 # STATUS
 
@@ -29,10 +29,6 @@ version 0.004
 
 Beam::Wire::Moose is a subclass of Beam::Wire that adds support for Moose-specific
 features.
-
-# NAME
-
-Beam::Wire::Moose - Dependency Injection with extra Moose features
 
 # SERVICE CONFIG
 

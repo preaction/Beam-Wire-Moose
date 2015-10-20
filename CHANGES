@@ -1,6 +1,9 @@
 Changelog for Beam-Wire-Moose
 
-0.004 2015-10-20T05:18:37
+0.005 2015-10-20T05:28:15
+ - fix missing abstract
+
+0.004 2015-10-20T05:18:37Z
  - add new release files
  - update copyright year
  - add missing core prereqs

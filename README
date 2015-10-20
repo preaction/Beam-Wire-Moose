@@ -1,7 +1,3 @@
-=head1 NAME
-
-Beam::Wire::Moose - Dependency Injection with extra Moose features
-
 =head1 SYNOPSIS
 
     # container.yml
